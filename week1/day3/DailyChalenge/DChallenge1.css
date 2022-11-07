@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.container div{
+	width: 100px;
+	height: 100px;
+	background-color: gold;
+	margin: 10px 0px;
+	border-radius: 5px;
+}
+
+.line{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.line div{
+	margin: 0px 10px;
+}

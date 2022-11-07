@@ -1,0 +1,77 @@
+ *{
+  margin: 0px;
+  padding: 0px;
+ }
+
+@font-face
+{
+  font-family: "font-1";
+  src : url("./assets/RobotoCondensed-Light.ttf")
+}
+
+ header
+{
+margin: 10px 5px;
+}
+
+header > p{
+  display: inline-block;
+  width: 75%;
+  font-family: 'font-1';
+}
+
+header > button , input[type='submit']{
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border: 0px;
+  border-radius: 5px;
+}
+main{
+  background: url("bg3.jpg") no-repeat ;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.card{
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 10px;
+}
+.card > p{
+  width: 90%;
+  color: white;
+  font-size: 1.4rem;
+  /*border: 1px solid red;*/
+  margin:15px  auto;
+}
+.card > form{
+  width: 90%;
+  /*border: 1px solid red;*/
+  margin:5px  auto;
+}
+
+input[type='text']{
+  font-family: 'font-1';
+  padding: 7px;
+  width: 80%;
+  font-size: 1.1rem;
+  border: 0.5px solid lightgray;
+  border-radius: 10px;
+  color: gray;
+}
+input[type='text'] : focus{
+ border-color: gray;
+}
+
+
+input[type='text']:focus{
+
+  border-color: gray;
+}
+
+

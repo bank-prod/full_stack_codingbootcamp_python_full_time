@@ -1,0 +1,38 @@
+@font-face
+{
+	font-family: "font-1";
+	src : url("./assets/RobotoCondensed-Light.ttf")
+}
+
+*{
+	font-family: "font-1";
+}
+
+.mainContainer{
+	display: flex;
+}
+.side{
+	width: 400px;
+	background-color: red;
+}
+
+.content{
+	margin-left: 10px;
+	margin-top: 100px;
+}
+.skill2, .skill1{
+	width: 400px;
+	display: inline-block;
+}
+.idPersonne{
+	margin-top: 200px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.profileImage{
+	background-color: red;
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+}
